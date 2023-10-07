@@ -57,7 +57,7 @@ const Login = ({ url }) => {
 				<button className={classes.button}>Login</button>
 				{error && error}
 			</form>
-			<button
+			{/* <button
 				onClick={() => {
 					signIn('google');
 				}}
@@ -68,7 +68,7 @@ const Login = ({ url }) => {
 			<span className={classes.or}>- OR -</span>
 			<Link className={classes.link} href="/dashboard/register">
 				Create new account
-			</Link>
+			</Link> */}
 			{/* <button
         onClick={() => {
           signIn("github");
